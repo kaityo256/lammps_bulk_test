@@ -51,7 +51,7 @@ def save_file(filename, atoms, L):
 
 if __name__ == "__main__":
     S = 1.55  # Lattice Constant
-    M = 20  # Lattice Count
+    M = 50  # Lattice Count
     L = M * S  # Lattice Size
     atoms = make_config(M, S)
     save_file("test.atoms", atoms, L)

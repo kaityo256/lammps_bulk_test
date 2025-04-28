@@ -1,2 +1,4 @@
 log.lammps
 *.atoms
+*.log
+slurm*.out
